@@ -1,9 +1,8 @@
-function err = processLLSimgs( sfile )
-%PROCESSLSSIMGS use settings file to pull all tifs from given experiment
-% and process into Imaris .ims file.  Perform deskew if needed and save to
-% header + time point HDF5 ims linked file system
+function err = processKLBs( root )
+%PROCESSKLBS pulls settings xml files from root folder from given experiment
+% and process into Imaris .ims file.
 %
-% sfile:        settings file - can be full path or file in current working directory
+% root:   root folder path string
 
 
 %%  setup
