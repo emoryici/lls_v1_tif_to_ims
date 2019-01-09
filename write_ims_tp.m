@@ -8,7 +8,7 @@ function write_ims_tp(data, data_res_levels, root_str, tp, dtn, chns_used, bytes
 %   dtn:                data time number, called datenum elsewhere
 %   chns_used:          boolean array for [405nm 488nm 560nm 642nm],
 %                       e.g. [0 1 0 0] for 488nm only
-%   bytesize:           data size in bytes, mostly 2 for uint1695
+%   bytesize:           data size in bytes, mostly 2 for uint16
 %   um_per_px_z:        z step size in microns
 %   chunk_dims:         array of [x y z] chunk sizes, try [64 64 4] for now
 %   deflate:            gzip deflate value, 0-9 where 0 is no compression
